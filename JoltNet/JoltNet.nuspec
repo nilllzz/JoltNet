@@ -2,16 +2,16 @@
 <package>
   <metadata>
     <id>nilllzz.JoltNet</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>nilllzz</authors>
     <owners>nilllzz</owners>
     <title>JoltNet</title>
     <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <projectUrl>https://github.com/nilllzz/JoltNet</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/nilllzz/JoltNet/master/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Game Jolt Game API wrapper for .Net projects.</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>Advanced .Net Game Jolt Game Api wrapper</description>
+    <releaseNotes>Changed .Net framework version to 4.5</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>JoltNet Game Jolt GameJolt</tags>
   </metadata>
