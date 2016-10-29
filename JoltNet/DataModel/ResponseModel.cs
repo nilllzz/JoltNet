@@ -83,7 +83,7 @@ namespace JoltNet.DataModel
         /// <summary>
         /// Returned from get-time. The Game Jolt server's current second.
         /// </summary>
-        [DataMember(Name = "seconds")]
+        [DataMember(Name = "second")]
         public int Second;
 
         #endregion

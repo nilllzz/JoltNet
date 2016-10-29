@@ -16,7 +16,7 @@ namespace JoltNet
     public partial class GameJoltApiClient
     {
         private const string HOST = "api.gamejolt.com/api/game";
-        private const string VERSION = "v1_1";
+        private const string VERSION = "v1_2";
         private const string FORMAT_JSON = "json";
 
         private const string FORMAT_REQUEST_URL = "http://{0}/{1}/batch/?game_id={2}&format={3}";

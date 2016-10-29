@@ -4,11 +4,23 @@ namespace JoltNet
 {
     public static partial class RequestProvider
     {
+        /// <summary>
+        /// Provides requests to api endpoints to the time and date on the Game Jolt server.
+        /// </summary>
         public static class Time
         {
+            /// <summary>
+            /// A response for a request to get time information of the Game jolt server.
+            /// </summary>
             public class TimeResponse : GameJoltResponse
             {
+                /// <summary>
+                /// The UNIX timestamp.
+                /// </summary>
                 public int Timestamp { get; }
+                /// <summary>
+                /// The name of the timezone of the server.
+                /// </summary>
                 public string Timezone { get; }
                 public int Year { get; }
                 public int Month { get; }
@@ -31,8 +43,11 @@ namespace JoltNet
                 }
             }
 
+            /// <summary>
+            /// Returns a request to get the time and date information of the Game Jolt server.
+            /// </summary>
             public static GameJoltRequest<TimeResponse> Get()
-                => new GameJoltRequest<TimeResponse>("get-time");
+                => new GameJoltRequest<TimeResponse>("time");
         }
     }
 }
