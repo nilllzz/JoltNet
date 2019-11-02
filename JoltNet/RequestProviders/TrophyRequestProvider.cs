@@ -166,6 +166,19 @@ namespace JoltNet
                     });
 
             #endregion
+
+            #region RemoveAchieved
+
+            public static GameJoltRequest<GameJoltResponse> RemoveAchieved(int trophy_id, string username, string user_token)
+                => new GameJoltRequest<GameJoltResponse>("trophies/remove-achieved",
+                    new Dictionary<string, string>()
+                    {
+                        { nameof(trophy_id), trophy_id.ToString() },
+                        { nameof(username), username },
+                        { nameof(user_token), user_token}
+                    });
+
+            #endregion
         }
     }
 }

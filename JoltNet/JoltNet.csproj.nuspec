@@ -1,18 +1,21 @@
 <?xml version="1.0"?>
-<package>
+<package >
   <metadata>
     <id>nilllzz.JoltNet</id>
-    <version>1.0.1</version>
+    <version>1.1.1</version>
     <authors>nilllzz</authors>
     <owners>nilllzz</owners>
     <title>JoltNet</title>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <licenseUrl>https://github.com/nilllzz/JoltNet/blob/master/license.txt</licenseUrl>
     <projectUrl>https://github.com/nilllzz/JoltNet</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/nilllzz/JoltNet/master/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Advanced .Net Game Jolt Game Api wrapper</description>
-    <releaseNotes>Changed .Net framework version to 4.5</releaseNotes>
-    <copyright>Copyright 2016</copyright>
+    <description>Updated nuget package data</description>
+    <releaseNotes>Added trophies/remove-achieved endpoint.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
     <tags>JoltNet Game Jolt GameJolt</tags>
   </metadata>
+  <files>
+    <file src="bin\Release\JoltNet.dll" target="lib"></file>
+  </files>
 </package>
